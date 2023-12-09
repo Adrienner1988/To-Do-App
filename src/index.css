@@ -1,0 +1,25 @@
+body {
+/* background: #232526; 
+background: -webkit-linear-gradient(to top, #414345, #232526);
+background: linear-gradient(to top, #414345, #232526);  */
+background-image: url('https://png.pngtree.com/background/20230114/original/pngtree-orange-sticky-note-paper-background-picture-image_2006436.jpg');
+background-size: cover;
+height: 100vh;
+text-align: center;
+}
+
+.task-container {padding-top: 20px;
+
+}
+
+.funny-header {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #c28464;
+    color: beige;
+}
+
+.no-task {
+    margin-top: 50px;
+    color: #d95509;
+}
