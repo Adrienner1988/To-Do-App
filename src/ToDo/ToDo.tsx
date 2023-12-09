@@ -2,7 +2,7 @@ import { ChangeEvent, useState, MouseEvent } from "react"
 
 
 interface Task {
-    todoTask: string,
+    todoTask: string
     
 }
 
@@ -22,8 +22,9 @@ const ToDo = () => {
         setTask('')
     }
 
-    const removeTask = () => {
-        setTodoList(todoList.filter((todoTask) => todoTask !== todoTask))
+    const removeTask = (itemToRemove: string) => {
+        setTodoList(todoList.filter((item) => {
+            return item.todoTask !== itemToRemove}))
         
     }
 
@@ -41,7 +42,7 @@ const ToDo = () => {
     {todoList.length > 0 ? (
     todoList.map((item , index) => {
         return <div key={index}>{item.todoTask}
-        <button onClick={removeTask}>Remove</button>
+        <button onClick={() =>{removeTask(item.todoTask)}}>Remove</button>
         </div>
     })
     ) : (
