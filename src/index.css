@@ -2,21 +2,86 @@ body {
 background-image: url('https://png.pngtree.com/background/20230114/original/pngtree-orange-sticky-note-paper-background-picture-image_2006436.jpg');
 background-size: cover;
 height: 100vh;
-text-align: center;
+font-family: 'Hedvig Letters Serif', serif;
+
 }
 
 .task-container {padding-top: 20px;
-
 }
 
 .funny-header {
+    text-align: center;
     margin-top: auto;
     padding: 20px;
-    background-color: #c28464;
+    background-color: hsl(20, 44%, 58%, 0.7);
     color: beige;
 }
 
-.no-task {
-    margin-top: 50px;
+.task-container {
+    padding: 30px;
+}
+
+.input-form {
+    text-align: center;
+}
+
+.input {
+    width: 40%;
+    padding: 10px;
+    font-size: large;
+}
+
+.add-btn {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: large;
     color: #d95509;
+    background-color:#fbdccb ;
+    border-color: #d95509;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+.add-btn:hover {
+    background-color: #fca45c;
+    transition: .5s;
+    color: #000;
+}
+
+.list-container {
+    padding: 12px 310px;
+    margin: 10px;
+}
+
+.todo-item {
+    border: 3px double #c28464;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: x-large;
+    background-color: hsl(20, 44%, 58%, 0.5);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.remove-btn {
+    padding: 2px;
+    margin-left: 20px;
+    font-size: large;
+    color: #d95509;
+    background-color:#fbdccb;
+    border-color: #d95509;  
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+.remove-btn:hover {
+    background-color: #fca45c;
+    color: #000;
+    border-color: #fbdccb;
+    transition: .5s;
+}
+
+.no-task {
+    text-align: center;
+    margin-top: 30px;
+    color: #d95509;
+    font-size: x-large;
 }
