@@ -1,6 +1,6 @@
 # Todo List App
-![Project Screenshot](images\No-Task.png)
-![Project Screenshot](images\Task-List.png)
+![Project Screenshot](src/images/No-Task.png)
+![Project Screenshot](src/images/Task-List.png)
 
 ## Table of Contents
 - [About](#about)
