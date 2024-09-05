@@ -41,7 +41,7 @@ To run this project locally:
 4. `npm run dev`
 
 ## Usage
-You can access the live version of the application here: [Live Demo](https://drive.google.com/file/d/1UF13jdRBQk8QOl-K8brlY_YyfmIOoaNW/view?usp=sharing)
+You can access the live version of the application here: [Live Demo](https://dolisttracker.netlify.app/)
 
 1. Open the app in your browser.
 2. Add a task by typing into the input field and clicking the "Add Task" button.
