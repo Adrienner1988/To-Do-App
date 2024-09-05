@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [About](#about)
+- [Video](#video)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup](#setup)
@@ -16,6 +17,9 @@
 
 ## About
 The Todo List App is a simple, user-friendly application that allows users to manage their daily tasks efficiently. Users can add tasks, and mark them as completed by removing tasks as they finish. This project is built with TypeScript and React, ensuring type safety and a robust development experience.
+
+## Video
+[Watch the demo](https://drive.google.com/file/d/1UF13jdRBQk8QOl-K8brlY_YyfmIOoaNW/view?usp=drive_link)
 
 ## Features
 - Add tasks to a list with a single click.
@@ -37,7 +41,7 @@ To run this project locally:
 4. `npm run dev`
 
 ## Usage
-You can access the live version of the application here: [Live Demo](https://dolisttracker.netlify.app/)
+You can access the live version of the application here: [Live Demo](https://drive.google.com/file/d/1UF13jdRBQk8QOl-K8brlY_YyfmIOoaNW/view?usp=sharing)
 
 1. Open the app in your browser.
 2. Add a task by typing into the input field and clicking the "Add Task" button.
