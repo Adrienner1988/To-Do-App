@@ -26,6 +26,7 @@ The Todo List App is a simple, user-friendly application that allows users to ma
 - React
 - TypeScript
 - CSS
+- Google Fonts
 
 ## Setup
 To run this project locally:
