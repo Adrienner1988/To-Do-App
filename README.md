@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [About](#about)
+- [Video](#video)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup](#setup)
@@ -17,6 +18,9 @@
 ## About
 The Todo List App is a simple, user-friendly application that allows users to manage their daily tasks efficiently. Users can add tasks, and mark them as completed by removing tasks as they finish. This project is built with TypeScript and React, ensuring type safety and a robust development experience.
 
+## Video
+[Watch the demo](https://drive.google.com/file/d/1UF13jdRBQk8QOl-K8brlY_YyfmIOoaNW/view?usp=drive_link)
+
 ## Features
 - Add tasks to a list with a single click.
 - Delete tasks from the list.
@@ -26,6 +30,7 @@ The Todo List App is a simple, user-friendly application that allows users to ma
 - React
 - TypeScript
 - CSS
+- Google Fonts
 
 ## Setup
 To run this project locally:
